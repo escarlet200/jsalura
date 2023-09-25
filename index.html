@@ -10,7 +10,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
-
+    function pom (){ 
+        document.querySelector('#som_tecla_pom'). play();
+       }
+       document.querySelector('.tecla_pom').onclick = pom;
     <link rel="icon" type="image/png" href="images/bateria.png">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/estilos.css">
@@ -44,7 +47,7 @@
     <audio src="sounds/keyx.wav" id="som_tecla_tic"></audio>
     <audio src="sounds/keyc.wav" id="som_tecla_tom"></audio>
 
-   <script src="script.js"></script>
+   <script src="main.js"></script>
 
 </body>
 </html>
