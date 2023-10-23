@@ -3,7 +3,7 @@
 }
 document.querySelector('.tecla_pom').onclick = pom;
 
-function CLAP (){ 
+function clap (){ 
     document.querySelector('#som_tecla_CLAP').play();
    }
    document.querySelector('.tecla_CLAP').onclick = CLAP;
