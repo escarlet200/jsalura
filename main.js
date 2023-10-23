@@ -4,9 +4,9 @@
 document.querySelector('.tecla_pom').onclick = pom;
 
 function clap (){ 
-    document.querySelector('#som_tecla_CLAP').play();
+    document.querySelector('#som_tecla_clap').play();
    }
-   document.querySelector('.tecla_CLAP').onclick = CLAP;
+   document.querySelector('.tecla_clap').onclick = clap;
 
    function tim (){ 
     document.querySelector('#som_tecla_tim').play();
